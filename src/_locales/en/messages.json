@@ -1,0 +1,30 @@
+{
+    "extDescription": {
+        "message": "An extension to customize favicons",
+        "description": "Quick explanation of the extension"
+    },
+    "pageUrlPlaceholder": {
+        "message": "Page URL"
+    },
+    "imgUrlPlaceholder": {
+        "message": "Image URL"
+    },
+    "or": {
+        "message": "or"
+    },
+    "browseFilesButton": {
+        "message": "Browse"
+    },
+    "previewImgLabel": {
+        "message": "Preview"
+    },
+    "modifyButton": {
+        "message": "Modify"
+    },
+    "iconColumn": {
+        "message": "Icon"
+    },
+    "pageColumn": {
+        "message": "Page"
+    }
+}

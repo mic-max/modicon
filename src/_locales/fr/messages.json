@@ -1,0 +1,20 @@
+{
+    "extDescription": {
+        "message": "Un extension pour personnaliser les favicons"
+    },
+    "or": {
+        "message": "ou"
+    },
+    "browseFilesButton": {
+        "message": "Explorer"
+    },
+    "previewImgLabel": {
+        "message": "Prévisualisation"
+    },
+    "modifyButton": {
+        "message": "Modifier"
+    },
+    "iconColumn": {
+        "message": "Icone"
+    }
+}

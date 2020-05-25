@@ -1,0 +1,14 @@
+{
+    "title": "Azure Cloud",
+    "base_urls": [
+        "portal.azure.com"
+    ],
+    "mods": {
+        "sql": [
+            "Microsoft.Sql"
+        ],
+        "storage": [
+            "Microsoft.Storage"
+        ]
+    }
+}

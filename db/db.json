@@ -1,0 +1,58 @@
+{
+    "mods": [
+        {
+            "id": 0,
+            "base_url": "dev.azure.com",
+            "mods": [
+                {
+                    "id": "dashboard",
+                    "img": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAADQElEQVQ4y22SfUxTVxiHj95kdqFO2LSZ1lmWAAmgbkPGx8RYZvbnsiwqWWF+E93QbgUGRQQRxVXmtgz5EKoCCVOmQwUliEaTxSxmllIKrEJp194ak+LX3OZ/0vv+9ragMcaTPHne855zfvfmniv0LbIID/ZremsgR2+VcxnDywnMIH/GfK5vCXwkVrcEpHAAO2dNxyNkt04iu20SH7bdfUb2jNe0TxPpt9+D3nobYmWTLxKw8qicu+p4EOwpJsQoT8liMhv9Slq9L0K4zpreQ+I9i/2VcEBagy83wxpEeqM/xFAaE3Zmk0wrjvhoXccdqrvxX4S1XKdwL4PXxdOR0nh7bWpzECn1fmVFvZ9SG2Sw8W6dD/HfeZDfFcTAJCJsPzuJxB+8SG3wQywt6/1paUl3x7KK678vPzyBZbW3KNHioviaUSRZXPiq7x+Y+v9FzW+P0eMl9PoIeb8EEX/Yg3c4XCRXXEPynqtILr+OxAMjlFDtxOojbnzS6senbTKanSFYhxU0Dz5B5xihywOsPxnE24cmkPTjXxBxRT1TcaZzU3HFV0Lx+0egq3RQcf8j6uSNJ1zAsVHCUaeCYxzU4wP6AkDOqSC0ByeQ8D0H6L4+TzrjWcSaLlNs1TAWVzjwcWsAxt6H+KL7PgouPGA/wE6uzZceorz/b2Q1yVjEAbG1XgjtrnPQFvwKrfEStBVD0O5xQFNmx/xSOxaY2eYZ83x+yQDeKLHhzX0uaC1eLPrWA6H5sguaHaehKeiDZvcQHx6EttIJXdUIlvAbvYiOWbh/DAtqPNAcmICI2X6GYvI7EbOjl2LMDkTzU5Jq3chslJHO15jOV5XBVxqeZzAfMLpDXpq3z43Xq90k1NtOK+otp2hu/kWa+80gRRXZKMEyTmn1/APV+el99sLKEXrVdJPURQMUVWgjdfmfpK5yk3rvuCJUW89AtfHnkGpzt6IqtCtzTDaFg5Ro85ASXeqIOKrYrqi4ryocmHbZqKKqdIdUe/kjShtOuqVNXZDyr0IqHoVU6MRskxOznmM296Si4WnCtXkMUvUdSLvHxoUwtC8WuZ15ouCGQRhtBrHzD4PYdfMlzPTD60Z2qStPlN1663985WcANtbZEAAAAABJRU5ErkJggg==",
+                    "wildcards": [
+                        "*_dashboards*",
+                        "*_analytics*",
+                        "*_wiki*"
+                    ]
+                },
+                {
+                    "id": "code",
+                    "img": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAADLUlEQVQ4y02RbWhTZxTHn8aX1UVbE7VaX1psEet7Z1c62libNEmTLPYlUM2VSHGrSCtOGA4rKisyBUdFGNtkQ5EN5pd91y9Stw9Ct31ZMbn3Jldtk9ZGU406mR9sn/Pfc7IqPvCD85zz/50LzxXGnvKi0UjVfKHOrTrb0B8NRRj+sGhGQQrMwfUMzzjD2b8j1fONPauKxJtjNIhzd+rEo9/qBG7vFHL4A4F34R7POMPZt+LU0Sb7g9iWHtPjwF23AyONS+TIR3b8uctBfzU7MAeNNLwPhbzb4gBn2WFXpHu27c331sKI7HidaN8qxw/7Mfl5FxmRWuid22B0bUeiYyvSx/dS+ng3OKN6r9lhV4zHNu3P9myB/nH1bKbPS/nzn1LudBS5M/thtG9EIliFh6djmL54DNNDn5GqKRGqmmWHXTGmbdCysRrobWvl9JkoTfR5SA9W4vlQH1JdNUgEKpD/fgDmvp0M5b8bUPMKmY1tBLtirHu9lo1WwwxXyPvadnoxdBgvvzmGySMe1assMNa7Cy+uDuKfa2cxdmg3GcG1MqtVg13xILJOm+qugNVeKXWPk3InO/Hqhy+QDK1BMlgO3bsccV85Xv16CS9/+gpxt5M4yw674n5HufYwshpWeI00/csoe9SNJ6ciSHiWwurejNz5XszcvAo5/Auy6m3MthVkhVdLdtgV98Jl2mRHGazQSpn0O2n8QC0eDx7A88snIG9fx8yNK8id+0Qtq4H6AFKhMrJCZZIddsW9oFObDC9TC1ZIw7WAppQM/Q7+vX5B/c4QzMBK6M3FSHpLYAXUgoCTFJIddoXlL9UmgqV8kfF6Qfkrg5CjvyO+uwR6ow0pH4sOWG1LkfKXMqSQ7LArUq12bSJQAqPJJtP9Hnry7QCmzh7E46/7YbYsguVbgpR38f+0FiCFzPi5Z9dE0l0czfjtiNcJqSQa7/ditN6GZz9fgOFZjGTLe0i6FymK30AKmW4t1FFhNi+IZTwLYTSKWauzkp7++GVBTh9phd4g1IKFUJl3IcVsxl2oY8J02XxJlw2max4pgfjBTJ8TiXqheqrfNIfrLcSwYyj3PwJmLaA7RTylAAAAAElFTkSuQmCC",
+                    "wildcards": [
+                        "*_git*"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "base_url": "portal.azure.com",
+            "mods": [
+                {
+                    "id": "sql",
+                    "img": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADYUlEQVQ4y02Ta0ybVRzG/295MbrET8u2GEOCIVv0w1w03j8Zo4lxGt0kgobLALeudsyWYqlxE2VxMXMLBhMvMyxiGWDYpbC2dgNKS6G0W1kpUEovUPJ2lNppoiG6deG8j6clrD3JPzm355fnnOcc8jqHaLMlnUO7U+GQ3hOKXHUtJcLW+dg9a2jx7vhSYsEbiljT4VBTwm57YnN/0H6RKAPkBovBuVOOW7dx8j+g8Q5QtQZU/LNR2f5RPvf1v8CYlMJScPaLrCaQvCNsoHQm8e/Vlb8cd2W8vLye2T2RXN9lCbMy05xcZgrKuywRtsedWn9VYhlPRsZKPL726AfHt1K+7RVfajUv227E4F+SmHFyVj51zSu3WibRZvWgY3RKvnQzJM/EE8zkDuNpw6UU7Tm84778Oc0vIlUYJaofwOOfjbD3z/qh619A25UovjQvoqk/gvfOBlB2zMmo3gyq6Eo/Wfnp9ryBN9tFRW2PpFDyxQYro4YR0GE3qNHHyw9S3+BjF69hRkorxNrudMnb+gLA3nZRqOmRqG4ARSobe6hpDKTxgHR+CIYZkNYHQTMBUm0AFNXGdOm+AoDydL9IlUbp+a+c+NUVY80XQnik1YcORwK/+VbxyvfzeOobPz43zTM6YIZY051+bF9LHmCx2UXa3yV90jeN0dkEo48c6LDHobm8jO1tQVydXYWydwGdzlgOUFybBRQ42FHzg0jV5yU6eAXa3mn2oyOOXq+E8q4YP78fYwt/wGCK4owtzKjSlHOws9yQB2g7LuZSeO3MODodUXbOFceL7QFcmFqFK3IbLQOLeOb0NHzRJDsxGMJWZV+aXlDnASX1P4lUdV56uNGKZ0+Osy06fonqSRQbptE+eguH+qI8jQmUHh9nO4+N4oED3eltb+gKUnjrW5FqepapYRBUZ2GkdshFOi+oiUeoC6DkRICn4pZJOcSozgyh2pgq219wiYp3vyvmgD/p4CAElS1DjQ5GWg8T9H5ZaMnFyEgzsS4cGcmQ0sJj7F4rfUe/bUOtupb7EHzSSOphbjX7BiZBzTdBei5umZMpC2me4iD+No7Ys4BzOe3HMwI9WNV530lxXW950aHBPoV6OCpo3Sv8GPfE5usQdNeTiqNjwSLV7z2KDy+/vrl/S9XP9D/O8wnKwtbVEgAAAABJRU5ErkJggg==",
+                    "wildcards": [
+                        "*Microsoft.Sql*"
+                    ]
+                },
+                {
+                    "id": "storage",
+                    "img": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAACPElEQVQ4y6XSz04TURQG8HkI466SGPQV3JtggiLoyr1h50IlIbYQEAwGYmxibOzQMtM/U0TaQtuZacHO0JZCA7VuKDvQsMB24cYHGDrn44yFRE1LSLzJb87Nved+mTsZQfjf4ff734qiuMSiTLkI9yrBYFDxer1Rt9uz6PF45gRJkiDLMkLsvHbi7IXDYQQCAczMzGB6ehpTU1MQAoGgJYrzFqczsQs/94iWz+ezJidfWmNj49bExITFAZagarptbhSoXN6i0maZNsv/OFtz9vRsjtKZDPEZSq6sUjgSJSGdUanRbMIZtm2DiC5g/+5xRpPPhMIRtAMaDWeNWq0W2Tad4Qc52vNzTo/T22g0iQNI0PQsfc4bcK5hmAWY7LyaZhGptIp4IolEcgWJxArPuSZX8Wk5Dr4CBE1bJ3NnFqX9J1Tae4bS3tO2+nOs1R4hVelHunLvDwPI7NxB0nzMATEIqpqn8v4Ias1+qh4/RPV4CLUfD1A+ugXj8DrMb71/O7yBwpEL2a99HLDIb6Cv0XoxBKPyjvLb72FWPkA15rCsjyKefdGBG/HcKJbSrzhAOQsoRJDf9pGxNQ+9MItlzc3G2VgHvK67aSn12gkg5wr2Zn2Eas0B2j66TcZBb9thFwc3aeP7NdJrffwfLNpCLmeg+OUNivVhaLuD0Kr32WB3u0PQa3exWhiGonyEkFG1n6mUSpFo7IS/6knksqIx50/8JUSV2BU5HOoJBBdcXF2SLLmk0GXIPcEF6eopsw66EZmMDxYAAAAASUVORK5CYII=",
+                    "wildcards": [
+                        "*Microsoft.Storage*"
+                    ]
+                }
+            ]
+        }
+    ],
+    "groups": [
+        {
+            "id": 0,
+            "title": "Azure DevOps",
+            "img": "UklGRiIBAABXRUJQVlA4WAoAAAAQAAAADwAADwAAQUxQSMUAAAABgJtt27Hnfp/vja3KtlPZ9gT2CPYKOf4BourvwkpdUjtpbRt38B2ZISImAAAMpI37AAJAQRkChPK8BRABFAC3TMsLuZYPaA/4tE8fkeTl4VjLwvqBwwb5vmPtLg8VjJK00lIcpQFAo4svn/xKBSCGoTR6+Pb1wTxo/DV7YzbkX2QObA0RBRuTOabBXEwQUddTX5sV7+vshC6+fAn87kg+3Z3tr+6ThA1SPq+OaH5WDWh0L9m3Lj7zneuB+CudAMIHXmYUNABWUDggNgAAANABAJ0BKhAAEAABQCYlsAJ0ugH4AAOwAP7gw25K608gwnV//5xLHS+YoU8mf/lK0FzR8NjQAA=="
+        },
+        {
+            "id": 1,
+            "title": "Azure Service",
+            "img": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAABzElEQVQ4y21TPSwEQRTew0WDxs0oJERCJBKh1ly0CtFptHbv3BEkEp3WTyPRqXWSK0iUt3d+DxEROZEoaEQhovK71vre7Js1d2zy3bz35v1/N5aFLzGeV2A5Jmw3xvIQ0M5yjfZtZl8rCrZdy3RieQHYANqAZHWS6BO/wbVG8JqcOg9wdgMzwK1ZUBgdW1WZG4CtltkyBe+w7aBl+pJ0xywUJTCCO4ErmSkFIrVPAUmgSzgF6LukPwAJvSfpFCs6aALuxMQRnPfI+ZTtSzJ7GmDMNzqhr/LYf7pYZMdXmTkmx1G234j0AelfuFMn0FexcF7UOxy+RVq1fs32YQqGXQd7nHybu4ipDvCzKTMnYZs4oU9ygjE1ku36kL8JKln6kHxGooVSVVx4PPsd0GjsRu/A0yPwSGUgHv4PJpDRzr/zkuY5sM5IkuO7T0pCyWRWdToXJhh3P4SjaHoEpKbJoLceOCN6aQ+AL5wiyc9AK5aR1xQta4r029Bt4uwAnlS3IRMex6xbvJQXctLta57ND/YeqsrVfcWaXQhw4Q7C0P9PQJwf0gCQAlaAezWunfdDWktBFNAczt3LjycHXKiK2Do5KjZCpnxmhGj1fwBhEmBNF6KKqgAAAABJRU5ErkJggg=="
+        }
+    ]
+}

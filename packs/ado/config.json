@@ -1,0 +1,34 @@
+{
+    "title": "Azure DevOps",
+    "base_urls": [
+        "dev.azure.com",
+        "microsoft.visualstudio.com"
+    ],
+    "mods": {
+        "code": [
+            "_git"
+        ],
+        "compliance": [
+
+        ],
+        "dashboard": [
+            "_dashboards",
+            "_analytics",
+            "_wiki"
+        ],
+        "feed": [
+
+        ],
+        "launch": [
+
+        ],
+        "plan": [
+
+        ],
+        "test": [
+
+        ]
+    }
+}
+
+creates regex by: ^https?:// + combine(base_url) + .*? + combine(modregex)
