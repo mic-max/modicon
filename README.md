@@ -2,6 +2,8 @@
 
 An extension to customize favicons.
 
+![ModIcon Logo](src/icon.png)
+
 ## How to check your wildcards
 1. Visit [regex101](https://regex101.com)
 2. Enter all the URLs in the test string text area
